@@ -55,6 +55,9 @@ li a:hover{
     color: #0a5952;
 }
 
+.firstdiv{
+    background-image: url(/images);
+}
 .logo{
     margin-top: 20px;
     margin-left: 80px;
@@ -76,7 +79,6 @@ li a:hover{
     letter-spacing: 0.7px;
     margin-bottom: 0;
     max-height: auto;
-   
 }
 .sen1{
     font-weight: 900;
@@ -247,12 +249,13 @@ li a:hover{
     margin-left: 5%;
     margin-right: 5%;
     border-radius: 25px;
+    margin-bottom: 5%;
     box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, 0.7);
+    height: 100vh;
 
 }
 .articlehead{
     background-color: rgb(0,0, 0, 0.7);
-
 }
 .heading1{
     margin-bottom: 2%;
@@ -265,6 +268,7 @@ li a:hover{
 .heading1:hover{
     transition: color 300ms ease-in-out;
     color: #1183a0;
+
 }
 
 .carousel-item{
@@ -292,6 +296,7 @@ li a:hover{
     position: absolute;
     padding: 2%;
     width: 80%;
+    /* top: 4; */
     left: 0;
     right: 0;
     bottom: 0;
@@ -322,18 +327,18 @@ li a:hover{
 /* Third div */
 .thirddiv{
     color: white;
-  
-    margin: 2.3%;
+    margin: 4%;
     display: flex;
     gap: 3%;
     
 }
 .topic1 {
     box-shadow: 0px 0px 8px 8px rgba(255, 255, 255, 0.7);
-    margin: 0.3%;
+    margin: 1%;
     flex: 1 0 calc(33.33% - 10%);
     background-color: #a072e6;
     border-radius: 20px;
+    height: auto;
   }
   
 @media (min-width:200px) and (max-width:750px) {
@@ -352,8 +357,8 @@ li a:hover{
 
 .para{
     padding: 5%;
-    padding-bottom: 0;
-    margin-bottom: 0;
+    padding-bottom: 3%;
+    
 }
 .headline{
     text-align: center;
